@@ -1,0 +1,62 @@
+body
+{background-color:darkslategray; margin: 0;}
+h2
+{color:white;}
+p
+{color:white;} a.active
+{text-decoration:none; color:white; font-size:15pt;
+background-color:black;
+padding:3pt;
+border-radius: 3pt;}
+a
+{text-decoration:none;
+color:white;
+font-size:15pt; padding:3pt; border-radius: 3pt}
+ul
+{list-style-type:none;}
+
+li
+{display:Inline;
+width:100px;
+}
+
+li a:hover
+{color:black;
+font-size:18pt;
+font weight:bold;
+padding:3pt;
+background-color:black}
+
+ul li a.active
+{cursor:no-drop;}
+
+ul li a
+{cursor:move;}
+
+.sample
+{background-color:navajowhite;
+padding:2pt;}
+
+a.active:hover
+{background-color:deeppink;
+color:palevioletred;}
+
+.sample1 .dropdown
+{position:relative;
+display:inline-block;
+}
+
+.sample1 .dropdown-content
+{display:none;
+position:absolute;
+background-color:seagreen;
+box-shadow:2px 8px 16px white
+;
+min-width:200px;
+z-index:1;}
+
+.sample1 .dropdown:hover .dropdown-content
+{
+display:block;}
+You sent
+css
